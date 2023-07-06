@@ -1,0 +1,17 @@
+my:
+  datasource: aa
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+my:
+  datasource: ""
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+my:
+  datasource: aa

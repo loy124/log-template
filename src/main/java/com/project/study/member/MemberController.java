@@ -13,7 +13,7 @@ public class MemberController {
 
     @GetMapping("member")
     public String getUserList(){
-        log.info("MemberController.getUserList");
+
         memberService.findUserList();
         return "ok";
     }

@@ -11,8 +11,6 @@ public class MemberService {
     private final MemberRepository memberRepository;
 
     public void findUserList(){
-        log.info("MemberService findUserList");
-
         memberRepository.findAll();
 
 
